@@ -1,0 +1,30 @@
+.icon {
+  width: 100%;
+  & img {
+    border-radius: 50%;
+    transition: border-radius var(--animation-duration) ease-in-out;
+  }
+  & img:hover {
+    border-radius: 30%;
+  }
+  & .icon__container {
+    position: relative;
+    margin-left: 0.5rem;
+    margin-right: 0.3rem;
+  }
+  & .container__hover {
+    position: absolute;
+    opacity: 0;
+    transition: opacity var(--animation-duration) ease-in-out;
+    background-color: white;
+    top: 50%;
+    translate: 0 -50%;
+    left: -25%;
+    border-radius: 50%;
+    height: 0.5rem;
+    width: 0.5rem;
+  }
+  .show {
+    opacity: 1;
+  }
+}

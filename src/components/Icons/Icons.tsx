@@ -1,8 +1,8 @@
 import { Icon } from "../Icon/Icon";
-
+import "./index.css";
 export function Icons() {
   return (
-    <section>
+    <section className="icons">
       <Icon />
       <Icon />
       <Icon />
