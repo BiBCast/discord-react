@@ -12,8 +12,6 @@
   }
   & .icon__container {
     position: relative;
-    margin-left: 0.5rem;
-    margin-right: 0.3rem;
   }
   & .container__hover {
     position: absolute;
@@ -22,7 +20,7 @@
     background-color: white;
     top: 50%;
     translate: 0 -50%;
-    left: -44%;
+    left: -50%;
     border-radius: 20px;
     height: 1.5rem;
     width: 1rem;
