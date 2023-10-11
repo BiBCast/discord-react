@@ -1,0 +1,15 @@
+.cn__sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #2b2d31;
+  color: #949ba4;
+  & nav {
+    display: flex;
+    flex-direction: column;
+  }
+  & .cn__title {
+    color: #f2f3f5;
+  }
+  & .cn__body {
+  }
+}
