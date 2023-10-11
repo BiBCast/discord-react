@@ -7,8 +7,6 @@ aside {
   background-color: #1e1f22;
   gap: 1%;
   padding-top: 1%;
-  padding-bottom: 1%;
-  padding-inline: 1%;
   & > .separator {
     height: 2px;
     width: 32px;
