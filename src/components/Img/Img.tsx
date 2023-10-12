@@ -10,7 +10,7 @@ export function Img({
   return (
     <>
       <img
-        src={window.location.href + URL}
+        src={URL}
         alt=" "
         width="48"
         height="48"
