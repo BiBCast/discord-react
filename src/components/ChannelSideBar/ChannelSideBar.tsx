@@ -1,20 +1,23 @@
+import { Footer } from "../Footer/Footer";
 import { Options } from "../Options/Options";
 import { Select } from "../Select/Select";
+import { Title } from "../Title/Title";
 import "./index.css";
 export function ChannelSideBar() {
   return (
     <aside className="cn__sidebar">
       <nav>
-        <div className="cn__title">
-          <p>Channel discord generico</p>
-        </div>
+        <Title title="Channel Gemerico" />
         <section className="cn__body">
+          <Select>
+            <Options />
+          </Select>
           <Select>
             <Options />
           </Select>
         </section>
       </nav>
-      <footer>footer</footer>
+      <Footer />
     </aside>
   );
 }

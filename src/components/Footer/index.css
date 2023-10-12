@@ -1,0 +1,16 @@
+.cnSideBar_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & .footer_user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  & user_status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

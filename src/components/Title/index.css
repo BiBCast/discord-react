@@ -1,0 +1,14 @@
+.cn__title {
+  color: #f2f3f5;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+  & > p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+.title_inline {
+  padding-inline: 1rem;
+}
