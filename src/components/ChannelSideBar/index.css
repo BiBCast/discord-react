@@ -3,12 +3,23 @@
   flex-direction: column;
   background-color: #2b2d31;
   color: #949ba4;
+  max-width: 20%;
   & nav {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   & .cn__title {
     color: #f2f3f5;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+
+    & > p {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
   }
   & .cn__body {
   }

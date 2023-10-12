@@ -1,0 +1,14 @@
+.select {
+  display: flex;
+  flex-direction: column;
+  & .select__title {
+    display: flex;
+    gap: 1%;
+  }
+  & .select__title > p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: uppercase;
+  }
+}

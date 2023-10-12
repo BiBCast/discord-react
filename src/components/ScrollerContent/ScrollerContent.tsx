@@ -1,3 +1,4 @@
+import "./index.css";
 export function ScrollerContent() {
-  return <div>ScrollerContent</div>;
+  return <div className="scr_content">ScrollerContent</div>;
 }

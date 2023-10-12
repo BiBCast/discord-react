@@ -1,0 +1,18 @@
+.icon_name {
+  display: flex;
+  padding-inline: 5%;
+  justify-content: start;
+  align-items: center;
+  min-width: 0;
+  & svg {
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  & p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
