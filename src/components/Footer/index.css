@@ -2,15 +2,35 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  background-color: #232428;
+  padding: 0.5rem 0;
+
   & .footer_user {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 5%;
+    & img {
+      height: 30px;
+      border-radius: 50%;
+    }
   }
-  & user_status {
+  & .user_status {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    & h3 {
+      font-size: 14px;
+      font-weight: 600;
+      width: 100%;
+    }
+    & p {
+      font-size: 12px;
+      width: 100%;
+    }
   }
 }

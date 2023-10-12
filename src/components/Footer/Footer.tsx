@@ -1,19 +1,21 @@
-import { AddUser } from "../../assets/AddUser";
+import { HeadPhones } from "../../assets/HeadPhones";
 import { ChannelIcons } from "../ChannelIcons/ChannelIcons";
 import "./index.css";
 export function Footer() {
   return (
-    <footer className="title_inline cnSideBar_footer">
+    <footer className="cnSideBar_footer">
       <div className="footer_user">
-        <div>icon con pallino</div>
+        <div>
+          <img src="/ChannelIcon1.webp" alt="" />
+        </div>
         <div className="user_status">
-          <div>nome</div>
-          <div>stato</div>
+          <h3>BiBCast</h3>
+          <p>Online</p>
         </div>
       </div>
       <ChannelIcons>
-        <AddUser />
-        <AddUser />
+        <HeadPhones />
+        <HeadPhones />
       </ChannelIcons>
     </footer>
   );
