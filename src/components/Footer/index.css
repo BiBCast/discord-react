@@ -58,4 +58,27 @@
       overflow: hidden;
     }
   }
+  & .status {
+    position: relative;
+    & > p.footer_hover {
+      position: absolute;
+      opacity: 0;
+      bottom: -50%;
+      transition: all 0.22s ease;
+    }
+    & > p:not(.footer_hover) {
+      opacity: 1;
+      transition: all 0.22s ease;
+    }
+  }
+  & .status_hover {
+    & > p:not(.footer_hover) {
+      translate: 0% -20%;
+      opacity: 0;
+    }
+    & > p.footer_hover {
+      opacity: 1;
+      bottom: 0;
+    }
+  }
 }
