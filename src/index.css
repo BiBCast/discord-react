@@ -2,6 +2,8 @@
 
 :root {
   --animation-duration: 200ms;
+  --hover-bg: #35373c;
+  --border-radius: 4px;
 }
 * {
   padding: 0;
@@ -30,3 +32,8 @@ main {
   white-space: nowrap;
   overflow: hidden;
 } */
+
+.hover {
+  background-color: var(--hover-bg);
+  border-radius: var(--border-radius);
+}

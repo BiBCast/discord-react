@@ -7,8 +7,8 @@ import "./index.css";
 export function Option() {
   const [isShow, setIsShow] = useState(false);
   return (
-    <div
-      className="options__ct"
+    <section
+      className={isShow ? "options__ct hover" : "options__ct"}
       onMouseOver={() => setIsShow(true)}
       onMouseOut={() => setIsShow(false)}
     >
@@ -19,6 +19,6 @@ export function Option() {
           <AddUser />
         </ChannelIcons>
       )}
-    </div>
+    </section>
   );
 }

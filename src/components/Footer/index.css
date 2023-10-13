@@ -9,17 +9,29 @@
   padding: 0.5rem 0;
   & .cn__icons {
     padding-right: 10%;
+    & .cn__icon {
+      padding: 0.3em;
+    }
+    & .cn__icon:hover {
+      background-color: #3c3e44;
+      border-radius: var(--border-radius);
+    }
   }
 
   & .footer_user {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10%;
+    padding: 1% 5%;
     gap: 5%;
     & img {
       height: 30px;
       border-radius: 50%;
+      display: flex;
+    }
+    &:hover {
+      background-color: var(--hover-bg);
+      border-radius: var(--border-radius);
     }
   }
   & .user_status {
@@ -27,14 +39,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     & h3 {
       font-size: 14px;
       font-weight: 600;
       width: 100%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
     }
     & p {
       font-size: 12px;
       width: 100%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
     }
   }
 }

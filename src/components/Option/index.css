@@ -2,5 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 5%;
+  margin-inline: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  /* & > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  & > div:hover {
+    background-color: #35373c;
+  } */
 }
+
+
