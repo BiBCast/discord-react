@@ -4,7 +4,7 @@
   justify-content: space-between;
   background-color: #2b2d31;
   color: #949ba4;
-  max-width: 20%;
+  max-width: 40%;
   min-width: 7rem;
   overflow-x: hidden;
   & nav {
@@ -15,6 +15,7 @@
   & .cn__body {
     display: flex;
     padding-top: 1rem;
+    border-top: 1px solid black;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;

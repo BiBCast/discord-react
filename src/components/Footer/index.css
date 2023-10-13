@@ -7,11 +7,15 @@
   bottom: 0;
   background-color: #232428;
   padding: 0.5rem 0;
+  & .cn__icons {
+    padding-right: 10%;
+  }
 
   & .footer_user {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 10%;
     gap: 5%;
     & img {
       height: 30px;
