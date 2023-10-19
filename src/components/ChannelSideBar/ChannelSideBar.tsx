@@ -12,33 +12,6 @@ export function ChannelSideBar() {
           <Select>
             <Options />
           </Select>
-          <Select>
-            <Options />
-          </Select>
-          <Select>
-            <Options />
-          </Select>
-          <Select>
-            <Options />
-          </Select>
-          <Select>
-            <Options />
-          </Select>
-          <Select>
-            <Options />
-          </Select>
-          <Select>
-            <Options />
-          </Select>
-          <Select>
-            <Options />
-          </Select>
-          <Select>
-            <Options />
-          </Select>
-          <Select>
-            <Options />
-          </Select>
         </section>
       </nav>
       <Footer />
