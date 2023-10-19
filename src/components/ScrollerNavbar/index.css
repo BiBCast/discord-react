@@ -1,0 +1,31 @@
+.sr__navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 4%;
+  padding-top: 1%;
+  padding-bottom: 1.2rem;
+  background-color: #313338;
+  color: #b5bac1;
+  border-bottom: 1px solid black;
+
+  & > .navbar__sep {
+    height: 100%;
+    border: 1px solid black;
+  }
+  & .icon_name {
+    font-weight: 600;
+    color: rgb(242, 243, 245);
+    padding-left: 1%;
+  }
+  & .navbar__title {
+    flex: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  & .cn__icons {
+    padding-right: 1%;
+  }
+}

@@ -1,0 +1,24 @@
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1f22;
+  border-radius: 5px;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  & .cn__icons {
+    gap: 1rem;
+    /* not working */
+  }
+  & input {
+    border: none;
+    background-color: transparent;
+    color: white;
+    width: 10rem;
+    transition: width var(--animation-duration) ease-in-out;
+    &:focus-visible {
+      outline: none;
+      width: 20rem;
+    }
+  }
+}
