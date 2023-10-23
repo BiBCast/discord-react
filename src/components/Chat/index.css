@@ -8,6 +8,9 @@
   overflow: scroll;
   & .chat__input {
     width: 100%;
+    padding: 2% 0;
+    border: 1px solid black;
+    scroll-behavior: smooth;
   }
   & .chat__space {
     flex-grow: 1;

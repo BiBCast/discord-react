@@ -8,9 +8,10 @@ export function ChatInput({
   setInputs: Dispatch<SetStateAction<string[]>>;
 }) {
   const [input, setInput] = useState("");
-  
+
   function handleInput(e: KeyboardEvent<HTMLInputElement>) {
     if (e.key === "Enter") {
+      if (input === "") return;
       setInputs((prev) => [...prev, input]);
       setInput("");
     }
