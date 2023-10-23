@@ -1,13 +1,16 @@
+import { useState } from "react";
 import { Chat } from "../Chat/Chat";
 import { ChatInput } from "../ChatInput/ChatInput";
 import { ScrollerNavbar } from "../ScrollerNavbar/ScrollerNavbar";
 import "./index.css";
 export function ScrollerContent() {
+  
+  const [inputs, setInputs] = useState([""]);
   return (
     <section className="scr_content">
       <ScrollerNavbar />
-      <Chat />
-      <ChatInput />
+      <Chat inputs={inputs} />
+      <ChatInput  setInputs={setInputs} />
     </section>
   );
 }

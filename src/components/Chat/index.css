@@ -3,5 +3,13 @@
   height: 100%;
   color: rgb(242, 243, 245);
   display: flex;
+  align-items: flex-end;
   flex-direction: column;
+  overflow: scroll;
+  & .chat__input {
+    width: 100%;
+  }
+  & .chat__space {
+    flex-grow: 1;
+  }
 }
