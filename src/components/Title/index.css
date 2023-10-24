@@ -1,6 +1,8 @@
 .cn__title {
   color: #f2f3f5;
-  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+
   & > p {
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -10,4 +12,5 @@
 
 .title_inline {
   padding-inline: 1rem;
+  min-height: 3rem;
 }

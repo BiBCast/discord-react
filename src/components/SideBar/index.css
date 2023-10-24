@@ -6,7 +6,9 @@ aside {
   overflow-y: scroll;
   background-color: #1e1f22;
   gap: 1%;
-  padding-top: 1%;
+  & .sidebar__icon {
+    padding-top: 15%;
+  }
   & > .separator {
     height: 2px;
     width: 32px;
