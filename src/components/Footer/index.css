@@ -8,7 +8,6 @@
   background-color: #232428;
   padding: 0.5rem 0;
   & .cn__icons {
-    padding-right: 10%;
     & .cn__icon {
       padding: 0.3em;
     }
@@ -42,6 +41,8 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    min-width: 4rem;
+    max-width: 4rem;
     & h3 {
       font-size: 14px;
       font-weight: 600;
