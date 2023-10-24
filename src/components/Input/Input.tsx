@@ -1,4 +1,4 @@
-import { HeadPhones } from "../../assets/HeadPhones";
+import { Glass } from "../../assets/Glass";
 import { ChannelIcons } from "../ChannelIcons/ChannelIcons";
 import "./index.css";
 export function Input() {
@@ -6,7 +6,7 @@ export function Input() {
     <div className="input">
       <input type="seach" />
       <ChannelIcons>
-        <HeadPhones />
+        <Glass />
         <></>
       </ChannelIcons>
     </div>

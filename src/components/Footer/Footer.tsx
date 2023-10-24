@@ -2,6 +2,8 @@ import { useState } from "react";
 import { HeadPhones } from "../../assets/HeadPhones";
 import { ChannelIcons } from "../ChannelIcons/ChannelIcons";
 import "./index.css";
+import { Microphone } from "../../assets/Microphone";
+import { Gear } from "../../assets/Gear";
 export function Footer() {
   const [isHover, setIsHover] = useState(false);
   return (
@@ -23,9 +25,9 @@ export function Footer() {
         </div>
       </div>
       <ChannelIcons>
+        <Microphone />
         <HeadPhones />
-        <HeadPhones />
-        <HeadPhones />
+        <Gear />
       </ChannelIcons>
     </footer>
   );

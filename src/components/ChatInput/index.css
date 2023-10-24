@@ -8,6 +8,7 @@
   width: 100%;
   padding-bottom: 1%;
   background-color: #313338;
+  color: #b5bac1;
   & .ChatInput__ct {
     display: flex;
     justify-content: space-between;
@@ -16,6 +17,9 @@
     width: 90%;
     border-radius: 5px;
     padding: 1%;
+    & .cn__icons {
+      gap: 15%;
+    }
   }
   & .ct__input {
     display: flex;

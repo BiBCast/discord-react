@@ -1,4 +1,9 @@
-import { HeadPhones } from "../../assets/HeadPhones";
+import { Bell } from "../../assets/Bell";
+import { BoxMail } from "../../assets/BoxMail";
+import { HashChat } from "../../assets/HashChat";
+import { Pin } from "../../assets/Pin";
+import { QuestionMark } from "../../assets/QuestionMark";
+import { Social } from "../../assets/Social";
 import { ChannelIcons } from "../ChannelIcons/ChannelIcons";
 import { IconName } from "../IconName/IconName";
 import { Input } from "../Input/Input";
@@ -12,15 +17,15 @@ export function ScrollerNavbar() {
         Commenti su Death Battle futuri e pronostici
       </div>
       <ChannelIcons>
-        <HeadPhones />
-        <HeadPhones />
-        <HeadPhones />
-        <HeadPhones />
+        <HashChat />
+        <Bell />
+        <Pin />
+        <Social />
       </ChannelIcons>
       <Input />
       <ChannelIcons>
-        <HeadPhones />
-        <HeadPhones />
+        <BoxMail />
+        <QuestionMark />
       </ChannelIcons>
     </nav>
   );

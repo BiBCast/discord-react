@@ -26,5 +26,6 @@
   }
   & .cn__icons {
     padding-right: 1%;
+    gap: 20%;
   }
 }

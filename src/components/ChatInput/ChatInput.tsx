@@ -1,7 +1,11 @@
 import { Dispatch, SetStateAction, KeyboardEvent, useState } from "react";
-import { HeadPhones } from "../../assets/HeadPhones";
 import { ChannelIcons } from "../ChannelIcons/ChannelIcons";
 import "./index.css";
+import { Plus } from "../../assets/Plus";
+import { Gift } from "../../assets/Gift";
+import { GifButton } from "../../assets/GifButton";
+import { FileButton } from "../../assets/FileButton";
+import { SadFace } from "../../assets/SadFace";
 export function ChatInput({
   setInputs,
 }: {
@@ -21,7 +25,7 @@ export function ChatInput({
       <div className="ChatInput__ct">
         <div className="ct__input">
           <ChannelIcons>
-            <HeadPhones />
+            <Plus />
             <></>
           </ChannelIcons>
           <input
@@ -33,10 +37,10 @@ export function ChatInput({
           />
         </div>
         <ChannelIcons>
-          <HeadPhones />
-          <HeadPhones />
-          <HeadPhones />
-          <HeadPhones />
+          <Gift />
+          <GifButton />
+          <FileButton />
+          <SadFace />
         </ChannelIcons>
       </div>
     </article>

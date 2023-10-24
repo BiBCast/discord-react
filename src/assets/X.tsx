@@ -1,7 +1,7 @@
 export function X() {
   return (
     <svg width="18" height="18">
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <path d="M0 0h18v18H0"></path>
         <path
           stroke="currentColor"

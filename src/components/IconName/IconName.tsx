@@ -1,9 +1,9 @@
-import { Speaker } from "../../assets/Speaker";
+import { Hash } from "../../assets/Hash";
 import "./index.css";
 export function IconName() {
   return (
     <article className="icon_name">
-      <Speaker />
+      <Hash />
       <p>name</p>
     </article>
   );
