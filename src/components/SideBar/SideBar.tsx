@@ -5,7 +5,7 @@ export function SideBar() {
   return (
     <aside className="Sidebar">
       <div className="sidebar__icon">
-        <Icon />
+      <Icon hasHover={true} />
       </div>
       <div className="separator"></div>
       <Icons />

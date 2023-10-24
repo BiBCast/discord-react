@@ -15,7 +15,7 @@ export function Chat({ inputs }: { inputs: string[] }) {
     <article className="chat">
       <div className="chat__space"></div>
       {inputs.map((e, index) => (
-        <>
+        <div key={index} className="Container">
           <div className="chat__sep_container">
             <div className="chat_separator"></div>
             <div className="chat__date">
@@ -27,8 +27,8 @@ export function Chat({ inputs }: { inputs: string[] }) {
             </div>
             <div className="chat_separator"></div>
           </div>
-          <div key={index} className="chat__input">
-            <Icon />
+          <div className="chat__input">
+            <Icon hasHover={false}/>
             <div>
               <div className="chat__name_data">
                 <p>Pietro</p>
@@ -37,7 +37,7 @@ export function Chat({ inputs }: { inputs: string[] }) {
               <div className="chat__text">{e}</div>
             </div>
           </div>
-        </>
+        </div>
       ))}
       <div ref={bottomEl}></div>
     </article>

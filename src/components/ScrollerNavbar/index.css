@@ -10,8 +10,8 @@
   min-height: 3rem;
 
   & > .navbar__sep {
-    height: 70%;
-    border: 1px solid black;
+    height: 50%;
+    border: 1px solid #3e4047;
   }
   & .icon_name {
     font-weight: 600;

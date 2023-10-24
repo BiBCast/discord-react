@@ -6,6 +6,9 @@
   align-items: flex-end;
   flex-direction: column;
   overflow: scroll;
+  & .Container {
+    width: 100%;
+  }
   & .chat__sep_container {
     display: flex;
     align-items: center;
@@ -34,9 +37,11 @@
     padding: 2% 0;
     scroll-behavior: smooth;
     display: flex;
-    gap: 1%;
     align-items: center;
     justify-content: start;
+    & img:hover {
+      border-radius: 50%;
+    }
     & .chat__name_data {
       display: flex;
       gap: 10%;

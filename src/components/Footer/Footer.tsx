@@ -25,6 +25,7 @@ export function Footer() {
       <ChannelIcons>
         <HeadPhones />
         <HeadPhones />
+        <HeadPhones />
       </ChannelIcons>
     </footer>
   );

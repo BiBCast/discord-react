@@ -5,7 +5,7 @@
   background-color: #2b2d31;
   color: #949ba4;
   max-width: 40%;
-  min-width: 11rem;
+  min-width: 13rem;
   overflow-x: hidden;
   & nav {
     display: flex;

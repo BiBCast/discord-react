@@ -49,6 +49,7 @@
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
+      color: rgb(242, 243, 245);
     }
     & p {
       font-size: 12px;
