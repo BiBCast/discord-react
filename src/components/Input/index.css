@@ -7,7 +7,7 @@
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   & .cn__icons {
-    gap: 1rem;
+    padding-right: 0px;
     /* not working */
   }
   & input {
@@ -15,6 +15,7 @@
     background-color: transparent;
     color: white;
     width: 10rem;
+    padding-left: 1%;
     transition: width var(--animation-duration) ease-in-out;
     &:focus-visible {
       outline: none;

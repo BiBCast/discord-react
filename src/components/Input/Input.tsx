@@ -4,7 +4,7 @@ import "./index.css";
 export function Input() {
   return (
     <div className="input">
-      <input type="seach" />
+      <input type="seach" placeholder="Cerca" />
       <ChannelIcons>
         <Glass />
         <></>
