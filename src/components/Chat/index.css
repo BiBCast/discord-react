@@ -9,8 +9,16 @@
   & .chat__input {
     width: 100%;
     padding: 2% 0;
-    border: 1px solid black;
     scroll-behavior: smooth;
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    justify-content: start;
+    & .chat__name_data {
+      display: flex;
+      gap: 10%;
+      width: 100%;
+    }
   }
   & .chat__space {
     flex-grow: 1;

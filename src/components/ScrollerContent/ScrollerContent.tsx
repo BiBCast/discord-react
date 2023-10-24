@@ -4,13 +4,12 @@ import { ChatInput } from "../ChatInput/ChatInput";
 import { ScrollerNavbar } from "../ScrollerNavbar/ScrollerNavbar";
 import "./index.css";
 export function ScrollerContent() {
-  
-  const [inputs, setInputs] = useState([""]);
+  const [inputs, setInputs] = useState<string[]>([]);
   return (
     <section className="scr_content">
       <ScrollerNavbar />
       <Chat inputs={inputs} />
-      <ChatInput  setInputs={setInputs} />
+      <ChatInput setInputs={setInputs} />
     </section>
   );
 }
