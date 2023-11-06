@@ -3,6 +3,13 @@
   justify-content: center;
   align-items: center;
   padding-right: 1rem;
+  & .cn__icon {
+    position: relative;
+  }
+  & .cn__icon:hover .icon__hover_msg {
+    opacity: 1;
+    visibility: visible;
+  }
 
   & svg {
     display: flex;

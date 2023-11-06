@@ -14,7 +14,7 @@ export function Option() {
     >
       <IconName />
       {isShow && (
-        <ChannelIcons>
+        <ChannelIcons TooltipPosition="Up">
           <AddUser />
           <AddUser />
         </ChannelIcons>

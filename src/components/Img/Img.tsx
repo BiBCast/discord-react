@@ -8,15 +8,13 @@ export function Img({
   setIsImageHover: Dispatch<SetStateAction<boolean>>;
 }) {
   return (
-    <>
-      <img
-        src={URL}
-        alt=" "
-        width="48"
-        height="48"
-        onMouseOver={() => setIsImageHover(true)}
-        onMouseOut={() => setIsImageHover(false)}
-      />
-    </>
+    <img
+      src={URL}
+      alt=" "
+      width="48"
+      height="48"
+      onMouseOver={() => setIsImageHover(true)}
+      onMouseOut={() => setIsImageHover(false)}
+    />
   );
 }

@@ -11,6 +11,10 @@
   & img:hover {
     border-radius: 30%;
   }
+  &:hover .icon__hover_msg {
+    opacity: 1;
+    visibility: visible;
+  }
   & .icon__container {
     position: relative;
   }

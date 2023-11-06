@@ -24,7 +24,7 @@ export function ChatInput({
     <article className="ChatInput">
       <div className="ChatInput__ct">
         <div className="ct__input">
-          <ChannelIcons>
+          <ChannelIcons TooltipPosition="Up">
             <Plus />
             <></>
           </ChannelIcons>
@@ -36,7 +36,7 @@ export function ChatInput({
             onKeyDown={handleInput}
           />
         </div>
-        <ChannelIcons>
+        <ChannelIcons TooltipPosition="Up">
           <Gift />
           <GifButton />
           <FileButton />

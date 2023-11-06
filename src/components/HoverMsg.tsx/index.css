@@ -1,0 +1,21 @@
+.icon__hover_msg {
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  opacity: 0;
+  z-index: 2;
+  visibility: hidden;
+  transition: opacity var(--animation-duration) ease-in-out;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+.Up {
+  top: -200%;
+}
+.Right {
+  right: 300%;
+  top: 50%;
+}
+.Down {
+  top: +300%;
+}

@@ -16,14 +16,14 @@ export function ScrollerNavbar() {
       <div className="navbar__title">
         Commenti su Death Battle futuri e pronostici
       </div>
-      <ChannelIcons>
+      <ChannelIcons TooltipPosition="Down">
         <HashChat />
         <Bell />
         <Pin />
         <Social />
       </ChannelIcons>
       <Input />
-      <ChannelIcons>
+      <ChannelIcons TooltipPosition="Down">
         <BoxMail />
         <QuestionMark />
       </ChannelIcons>
